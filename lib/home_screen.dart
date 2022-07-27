@@ -4,6 +4,10 @@ class HomeScreen extends StatelessWidget {
 static const String routeName='homescreen';
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('fhjk'),
+      ),
+    );
   }
 }
